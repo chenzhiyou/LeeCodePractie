@@ -1,3 +1,4 @@
+# 选择排序，如果使用Python实现，时间复杂度为O(n)
 from char01_sort.randomList import random_list
 
 
@@ -6,7 +7,7 @@ def selection_sort():
     print(ilist)
     if len(ilist) <= 1:
         return ilist
-    for i in range(0, len(ilist)):
+    for i in range(0, len(ilist)-1):
         if ilist[i] != min(ilist[i:]):
             min_index = ilist.index(min(ilist[i:]))
             ilist[i], ilist[min_index] = ilist[min_index], ilist[i]

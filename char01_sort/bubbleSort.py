@@ -1,4 +1,5 @@
 # 冒泡排序
+# 时间复杂度为O(n*n)
 from char01_sort.randomList import random_list
 
 

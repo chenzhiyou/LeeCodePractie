@@ -1,23 +1,16 @@
 # 冒泡排序
-import random
-
-
-def random_list(n):
-    iList = []
-    for i in range(n):
-        iList.append(random.randrange(1000))
-    return iList
+from char01_sort.randomList import random_list
 
 
 def bubble_sort():
     ilist = random_list(20)
+    print(ilist)
     if len(ilist) <= 1:
         return ilist
     for i in range(1, len(ilist)):
-        for j in range(0, len(ilist)-1):
+        for j in range(0, len(ilist)-i):
             if ilist[j] > ilist[j+1]:
                 ilist[j], ilist[j+1] = ilist[j+1], ilist[j]
-            print(ilist)
     return ilist
 
 

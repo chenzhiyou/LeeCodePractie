@@ -7,7 +7,7 @@ def insertion_sort():
     print(ilist)
     if len(ilist) <= 1:
         return ilist
-    for right in range(1,len(ilist)):
+    for right in range(1, len(ilist)):
         target = ilist[right]
         for left in range(0, right):
             if target <= ilist[left]:

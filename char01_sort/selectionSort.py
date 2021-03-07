@@ -1,4 +1,5 @@
 # 选择排序，如果使用Python实现，时间复杂度为O(n)
+# 原理：不断的在数列中选择最小的那个数
 from char01_sort.randomList import random_list
 
 

@@ -1,4 +1,6 @@
 # 插入排序
+# 原理：讲数列分成两部分，数列的第一个数为left部分，其他部分为right部分，然后将right部分中的数注意取出，插入left部分中
+# 合适的位置，让right部分为空时，left部分就成为了一个有序数列
 from char01_sort.randomList import random_list
 
 

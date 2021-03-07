@@ -1,5 +1,6 @@
 # 冒泡排序
 # 时间复杂度为O(n*n)
+# 原理：通过不断交换大数的位置达到排序的目的
 from char01_sort.randomList import random_list
 
 

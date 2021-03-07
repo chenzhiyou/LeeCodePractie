@@ -1,5 +1,5 @@
 # 归并排序
-
+# 原理：是一个递归算法，讲数列氛围左右两部分，然后将左右两个子数列排序完毕后在合并到一起，就成了一个有序队列
 from char01_sort.randomList import random_list
 i_list = random_list(20)
 print(i_list)

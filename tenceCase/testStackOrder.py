@@ -12,7 +12,7 @@ class ArrayStack:
     def push(self, value):
         """
         入栈
-        :param 要入栈的元素:
+        :param value: 要入栈的元素:
         :return:
         """
         if self.n == self.count:

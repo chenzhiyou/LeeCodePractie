@@ -1,6 +1,7 @@
 
 class IdMaker:
     """
+    饿汉式单例
     Python的类变量会被多个类，实例共享
     __instance = None
     id也是类变量，多个实例或类共享

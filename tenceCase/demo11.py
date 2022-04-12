@@ -28,9 +28,9 @@ class TestCase(object):
     def test_key(self):
         kw = self.driver.find_element(By.ID, "kw")
         kw.send_keys("selenium")
-        kw.send_keys(Keys.CONTROL, 'a')
+        kw.send_keys(Keys.COMMAND, 'a')
         sleep(2)
-        kw.send_keys(Keys.CONTROL, "v")
+        kw.send_keys(Keys.COMMAND, "v")
         sleep(2)
 
 
